@@ -6,6 +6,7 @@
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",
+        "fmt": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,scss,json}\"",
         "lint": "eslint .",
         "preview": "vite preview"
     },
@@ -13,8 +14,10 @@
         "mobx": "^6.13.7",
         "mobx-react-lite": "^4.1.0",
         "phaser": "^3.90.0",
+        "prettier": "^3.6.2",
         "react": "^19.1.0",
-        "react-dom": "^19.1.0"
+        "react-dom": "^19.1.0",
+        "sass": "^1.93.0"
     },
     "devDependencies": {
         "@eslint/js": "^9.25.0",
