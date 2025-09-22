@@ -1,0 +1,18 @@
+[
+    {
+        "id": "long_term_deposit",
+        "name": "Long-Term Deposit",
+        "icon": "coin",
+        "growth": 1.2,
+        "tooltip": "Your deposit grows safely over time.",
+        "interaction": "drag_drop"
+    },
+    {
+        "id": "fraud_protection",
+        "name": "Fraud Protection",
+        "icon": "shield",
+        "growth": 0,
+        "tooltip": "Protects your assets from random events for 10 seconds.",
+        "interaction": "click"
+    }
+]

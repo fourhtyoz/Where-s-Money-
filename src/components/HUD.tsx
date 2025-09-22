@@ -12,6 +12,14 @@ export const HUD = observer(() => {
             <button onClick={() => gameStore.upgradeVault()} disabled={!canUpgrade}>
                 Upgrade Vault (Cost: {10 * gameStore.vaultLevel})
             </button>
+            <button
+                onClick={() => gameStore.activateFraudProtection()}
+                disabled={gameStore.fraudProtectionActive}
+            >
+                {gameStore.fraudProtectionActive
+                    ? 'Fraud Protection Active'
+                    : 'Activate Fraud Protection'}
+            </button>
         </div>
     );
 });
